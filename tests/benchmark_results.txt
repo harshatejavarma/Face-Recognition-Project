@@ -1,0 +1,16 @@
+ONNX Inference Benchmark
+
+Average latency: 26.59 ms
+Approximate throughput: 37.61 FPS
+
+Test environment:
+- Runtime: ONNX Runtime
+- Execution provider: CPU
+- Input: Blank tensor
+- Benchmark iterations: 10
+- Warm-up iterations: 2
+
+Note:
+These results measure inference execution on blank inputs.
+They do not establish face-detection accuracy or end-to-end
+real-time video performance.
