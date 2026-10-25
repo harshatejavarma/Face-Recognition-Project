@@ -1,0 +1,16 @@
+Face-Specific ONNX Benchmark Results
+
+Model: models/yolov8n-face.onnx
+Runtime: ONNX Runtime
+Execution provider: CPU
+Input shape: 1 x 3 x 640 x 640
+Warm-up runs: 3
+Timed runs: 20
+
+Average inference latency: 33.03 ms
+Approximate throughput: 30.27 FPS
+
+Test limitation:
+The benchmark used blank input tensors. It measures model execution
+speed, not face-detection accuracy or end-to-end camera latency.
+Results may vary depending on hardware and runtime conditions.
